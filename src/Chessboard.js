@@ -322,7 +322,7 @@ var Chessboard = cc.Layer.extend({
         return pos;
     },
 
-    _calRightPos: function(box) {
+    _calRightPos: function(box, isCanCombind) {
         var boxX = Math.round(box.getPositionX());
         var boxY = Math.round(box.getPositionY());
 
