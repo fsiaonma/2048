@@ -1,0 +1,17 @@
+{
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 1,
+    "engineDir":"./frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/Resource.js",
+        "src/Chessboard.js",
+        "src/BoxV.js",
+        "src/Global.js"
+    ]
+}
